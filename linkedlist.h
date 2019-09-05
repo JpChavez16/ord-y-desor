@@ -147,7 +147,7 @@ class linkedListType
 
 		linkedListIterator<T>  end()
 		{
-			linkedListIterator<T> temp(last);
+			linkedListIterator<T> temp(NULL);
 			return temp;
 		}
 	private:
